@@ -17,5 +17,20 @@ updates:
         versions: ["<latest"]
       - dependency-name: "qs"
         versions: ["<latest"]
+  - package-ecosystem: "npm"
+    directory: "/client"
+    schedule:
+      interval: "weekly"
+    ignore:
+      - dependency-name: "acorn"
+        versions: ["<latest"]
+      - dependency-name: "@babel/traverse"
+        versions: ["<latest"]
+      - dependency-name: "ajv"
+        versions: ["<latest"]
+      - dependency-name: "semver"
+        versions: ["<latest"]
+      - dependency-name: "bcrypt"
+        versions: ["<latest"]
       - dependency-name: "qs"
         versions: ["<latest"]
