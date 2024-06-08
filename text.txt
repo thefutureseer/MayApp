@@ -5,3 +5,5 @@ trying to trace errors with:
     "dev:trace": "concurrently --raw --kill-others \"node --trace-warnings server.js\" \"npm start\"",
 
 up and running middle march 2023: ran all the updates with npm. added a new heroku deployment
+
+June 7th adding dependabot file for github
