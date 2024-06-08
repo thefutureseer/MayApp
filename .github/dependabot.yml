@@ -6,31 +6,31 @@ updates:
       interval: "weekly"
     ignore:
       - dependency-name: "acorn"
-        versions: ["<latest"]
+        versions: ["<6.0.0"]
       - dependency-name: "@babel/traverse"
-        versions: ["<latest"]
+        versions: ["<7.0.0"]
       - dependency-name: "ajv"
-        versions: ["<latest"]
+        versions: ["<6.0.0"]
       - dependency-name: "semver"
-        versions: ["<latest"]
+        versions: ["<6.3.0"]
       - dependency-name: "bcrypt"
-        versions: ["<latest"]
+        versions: ["<5.0.0"]
       - dependency-name: "qs"
-        versions: ["<latest"]
+        versions: ["<6.9.0"]
   - package-ecosystem: "npm"
     directory: "/client"
     schedule:
       interval: "weekly"
     ignore:
       - dependency-name: "acorn"
-        versions: ["<latest"]
+        versions: ["<6.0.0"]
       - dependency-name: "@babel/traverse"
-        versions: ["<latest"]
+        versions: ["<7.0.0"]
       - dependency-name: "ajv"
-        versions: ["<latest"]
+        versions: ["<6.0.0"]
       - dependency-name: "semver"
-        versions: ["<latest"]
+        versions: ["<6.3.0"]
       - dependency-name: "bcrypt"
-        versions: ["<latest"]
+        versions: ["<5.0.0"]
       - dependency-name: "qs"
-        versions: ["<latest"]
+        versions: ["<6.9.0"]
