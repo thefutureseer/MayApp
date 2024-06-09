@@ -17,20 +17,21 @@
   "author": "Tannehill",
   "license": "MIT",
   "dependencies": {
+    "@babel/traverse": "^7.0.0",
+    "acorn": "^6.0.0",
+    "ajv": "^6.0.0",
     "bcrypt": "^5.1.0",
+    "bson": "^6.7.0",
     "config": "^3.1.0",
     "express": "^4.16.4",
     "express-validator": "^6.15.0",
     "gravatar": "^1.8.0",
     "jsonwebtoken": "^9.0.0",
     "mongoose": "^5.13.20",
+    "qs": "^6.9.0",
     "request": "^2.88.0",
-    "source-map-url": "^0.4.1",
-    "acorn": "^6.0.0",
-    "@babel/traverse": "^7.0.0",
-    "ajv": "^6.0.0",
     "semver": "^6.3.0",
-    "qs": "^6.9.0"
+    "source-map-url": "^0.4.1"
   },
   "devDependencies": {
     "concurrently": "^7.6.0",
