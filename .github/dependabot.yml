@@ -11,22 +11,21 @@ updates:
       - "dependencies"
     ignore:
       - dependency-name: "acorn"
-        versions: ["6.0.0"]
+        versions: ["<6.0.0"]
       - dependency-name: "@babel/traverse"
-        versions: ["7.0.0"]
+        versions: ["<7.0.0"]
       - dependency-name: "ajv"
-        versions: ["6.0.0"]
+        versions: ["<6.0.0"]
       - dependency-name: "semver"
-        versions: ["6.3.0"]
+        versions: ["<6.3.0"]
       - dependency-name: "bcrypt"
-        versions: ["5.0.0"]
+        versions: ["<5.0.0"]
       - dependency-name: "qs"
-        versions: ["6.9.0"]
+        versions: ["<6.9.0"]
     allow:
-      - dependency-name: "mongoose"
+      - dependency-name: "*"
         update-types: ["version-update:semver-minor", "version-update:semver-patch"]
-      - dependency-name: "bson"
-        versions: ["1.1.7"]
+
   - package-ecosystem: "npm"
     directory: "/client"
     schedule:
@@ -37,9 +36,5 @@ updates:
     labels:
       - "dependencies"
     allow:
-      - dependency-name: "postcss"
-        update-types: ["version-update:semver-minor", "version-update:semver-patch"]
-      - dependency-name: "react-scripts"
-        update-types: ["version-update:semver-minor", "version-update:semver-patch"]
-      - dependency-name: "qs"
+      - dependency-name: "*"
         update-types: ["version-update:semver-minor", "version-update:semver-patch"]
