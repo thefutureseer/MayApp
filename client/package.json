@@ -5,7 +5,7 @@
   "dependencies": {
     "acorn": "^8.11.3",
     "ajv": "^8.16.0",
-    "axios": "^0.18.0",
+    "axios": "^1.7.2",
     "moment": "^2.24.0",
     "qs": "^6.12.1",
     "react": "^16.8.6",
@@ -13,16 +13,20 @@
     "react-moment": "^0.9.2",
     "react-redux": "^7.0.3",
     "react-router-dom": "^5.0.0",
-    "react-scripts": "5.0.1",
+    "react-scripts": "^5.0.1",
     "redux": "^4.0.1",
     "redux-devtools-extension": "^2.13.8",
     "redux-thunk": "^2.3.0",
     "semver": "^7.6.2",
     "tmpl": "^1.0.5",
     "uuid": "^3.3.2",
-    "word-wrap": "^1.2.4"
+    "word-wrap": "^1.2.5"
+  },
+  "resolutions": {
+    "minimist": "^1.2.6"
   },
   "scripts": {
+    "preinstall": "npx npm-force-resolutions",
     "start": "react-scripts --openssl-legacy-provider start",
     "build": "react-scripts --openssl-legacy-provider build"
   },
@@ -41,5 +45,8 @@
       "last 1 safari version"
     ]
   },
-  "proxy": "http://localhost:5000"
+  "proxy": "http://localhost:5000",
+  "devDependencies": {
+    "npm-force-resolutions": "^0.0.10"
+  }
 }
