@@ -26,6 +26,7 @@
     "minimist": "^1.2.6"
   },
   "scripts": {
+    "test": "jest",
     "preinstall": "npx npm-force-resolutions",
     "start": "react-scripts --openssl-legacy-provider start",
     "build": "react-scripts --openssl-legacy-provider build"
@@ -47,6 +48,9 @@
   },
   "proxy": "http://localhost:5000",
   "devDependencies": {
+    "@testing-library/jest-dom": "^6.4.6",
+    "@testing-library/react": "^12.1.5",
+    "jest": "^29.7.0",
     "npm-force-resolutions": "^0.0.10"
   }
 }
