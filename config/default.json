@@ -1,0 +1,7 @@
+{
+ "mongoURI": "mongodb+srv://medicalMiracle:gHYEeaeW8GpGDwmK@cluster0.0lokw.mongodb.net/?retryWrites=true&w=majority", 
+  "jwtSecret": "mysecrettoken",
+  "githubClientId": "ee75d74beca54ed6338f",
+  "githubSecret": "535ac27bc6748e4a60dfe69679793c355740a035",
+  "test": "test-1"
+}
